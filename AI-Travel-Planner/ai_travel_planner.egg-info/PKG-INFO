@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: ai-travel-planner
+Version: 0.1.0
+Summary: Add your description here
+Author: Gopi Govind
+Author-email: gopi@abc.com
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+
+uv init AI_Travel_Planner
+uv python install cpython-3.10.18-windows-x86_64-none
+uv python list
+uv python install cpython-3.10.18-windows-x86_64-none
+
+uv venv env
+env\Scripts\activate
+
+uv pip list
+
+uv pip install langchain
+
+uv pip install -r requirements.txt

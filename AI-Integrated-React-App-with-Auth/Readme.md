@@ -8,6 +8,7 @@
 3. https://dashboard.clerk.com/
 
  4. backend>  uv run .\server.py
+5. frontend> npm run dev
 
  https://ngrok.com/add
 
